@@ -29,9 +29,14 @@ int main(){
     // cout << "product = " << (a*b) << endl;
     // cout << "division = " << (a/b) << endl;
 
-    int a = 5;
-    double b = 2;
+    // int a = 5;
+    // double b = 2;
 
-    cout << (a/b) << endl;
+    // cout << (a/b) << endl;
+
+    int a = 10;
+    int b = a++; //kaam ; update
+    cout << "b = " << b << endl;
+    cout <<"a = " << a << endl;
     return 0;
 }
