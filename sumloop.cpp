@@ -1,0 +1,16 @@
+/*sum of numbers from 1 to n*/
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n = 50;
+    int i =1;
+    int sum = 0;
+    while(i<=n){
+        sum += i;
+        i++;
+    }
+
+    cout <<"sum = " << sum;
+    return 0;
+}
